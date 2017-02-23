@@ -1,0 +1,4 @@
+Sample code to verify the HMAC hash recieved from Cisco Spark Webhook.
+
+Tested to be working on AWS Lambda (nodeJS 4.3)
+
