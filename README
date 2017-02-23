@@ -1,4 +1,9 @@
 Sample code to verify the HMAC hash recieved from Cisco Spark Webhook.
 
-Tested to be working on AWS Lambda (nodeJS 4.3)
+Tested to be working on:
+- AWS Lambda (nodeJS 4.3)
+- AWS API Gateway to listen for the webhook messages
+
+Note:
+AWS API Gateway proxies the POST request HEADERS and BODY the Lambda function through "event" payload.
 
